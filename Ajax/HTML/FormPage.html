@@ -1,0 +1,31 @@
+<!doctype HTML>
+<head>
+		<script src = "../JavaScript/PassData.js" defer> </script>
+</head>
+
+<label id = "from"/> How to send Data from Javascript to C# Handler<br />
+<table>
+
+	<tr>
+		<td><label id = "from"/> From: </td>
+		<td><input id = "TxtFrom"></td>
+	</tr>
+	
+	<tr>
+		<td><label id = "To"/> To: </td>
+		<td><input id = "TxtTo" required = "required"></td>
+	</tr>
+	
+	<tr>
+		<td><label id = "To"/> body: </td>
+		<td><input id = "TxtBody" required = "required" 
+		rows="10" cols = "30"></textarea></td>
+	</tr>
+	
+	<tr>
+		<td/>
+		<td style = "align-content: flex-end">
+		<td><button onclick = "loadJsonData()"> Send Data to the Server </button>
+		</td>
+	</tr>
+</table>
