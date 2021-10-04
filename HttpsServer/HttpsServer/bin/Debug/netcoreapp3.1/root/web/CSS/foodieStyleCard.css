@@ -1,0 +1,79 @@
+.maincard
+{
+	position:relative;
+
+	height:75vh;
+	width:43vw;
+	top: 7vh;
+	left:5vw;
+}
+.Zone1
+{
+	position:absolute;
+	background-color: red;
+	height:35vh;
+	width:20vw;
+	top: 7vh;
+	left:53vw;
+}
+.Zone2
+{
+	position:absolute;
+	background-color: yellow;
+	height:35vh;
+	width:20vw;
+	top: 7vh;
+	left:76vw;
+}
+.Zone3
+{
+	position:absolute;
+	background-color: white;
+	height:35vh;
+	width:20vw;
+	top: 47vh;
+	left:53vw;
+}
+.Zone4
+{
+	position:absolute;
+	background-color: green;
+	height:35vh;
+	width:20vw;
+	top: 47vh;
+	left:76vw;
+}
+
+.MenuCard1
+{
+	position:absolute;
+	background-color: gray;
+	height:10vh;
+	width:20vw;
+	top: 10vh;
+	left:10vw;
+	padding:50px 0px 0px 0px;
+	
+}
+
+.MenuCard2
+{
+	position:absolute;
+	background-color: gray;
+	height:10vh;
+	width:20vw;
+	top: 10vh;
+	left:40vw;
+	padding:50px 0px 0px 0px;
+}
+
+.MenuCard3
+{
+	position:absolute;
+	background-color: gray;
+	height:10vh;
+	width:20vw;
+	top: 10vh;
+	left:70vw;
+	padding:50px 0px 0px 0px;
+}
